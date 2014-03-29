@@ -3,9 +3,9 @@
 
 openssl -v 0.9.8y 克隆。
 
-**注意：最好确保编译你的程序时，一定要用相同的gcc版本，比如不可用gcc4.8编译**
-**openssl，然后用gcc3编译ruby去引用openssl。但是低版本gcc编译的openssl，**
-**有一定几率可以被高版本gcc编译的软件引用。**  
+**注意：**最好确保编译你的程序时，一定要用相同的gcc版本，比如不可用gcc4.8编译
+openssl，然后用gcc3编译ruby去引用openssl。但是低版本gcc编译的openssl，
+**有一定几率可以被高版本gcc编译的软件引用**（老娘就是那只瞎猫）。    
 
 # openssl依赖
 cygwin里openssl && openssl-devel有如下依赖：  
